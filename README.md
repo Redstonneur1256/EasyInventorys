@@ -47,3 +47,9 @@ public class ExampleGui extends Gui {
 	
 }
 ```
+
+And how to open it:
+```
+Player myPlayer = ...;
+EasyInventorys.get().openGui(myPlayer, new ExampleGui());
+```
