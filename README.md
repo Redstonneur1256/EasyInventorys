@@ -2,6 +2,9 @@
 
 EasyInventorys is an API to create menu easily
 
+[Download plugin](https://www.spigotmc.org/resources/easyinventory.68860/)
+
+
 Example menu:
 
 ```
