@@ -10,9 +10,15 @@ import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 
+import fr.redstonneur1256.easyinv.Gui;
+
 public class ExampleGui extends Gui {
 
 	public ExampleGui() {
+		/*
+		 * Setting name "MyCoolGui" and amount of line to 3 
+		 * Warning! Amount of line need to be between 1 and 6
+		 */
 		super("MyCoolGui", 3);
 	}
 	
