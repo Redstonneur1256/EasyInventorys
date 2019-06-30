@@ -25,6 +25,9 @@ public class ExampleGui extends Gui {
 		super("MyCoolGui", 3);
 	}
 	
+	/*
+	 * Method called to add all items into inventory when is open
+	*/
 	@Override
 	public void update(Player player) {
 		/* 
@@ -42,6 +45,9 @@ public class ExampleGui extends Gui {
 		setSlotData(myCoolItem, 0, "say_Hello");
 	}
 	
+	/*
+	 * Method called when an item get clicked
+	*/
 	@Override
 	public void onClick(Player player, ItemStack stack, String action) {
 		if(action == "say_Hello") // If action its the defined action say_hello, execute code you want for this action
