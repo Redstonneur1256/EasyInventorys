@@ -13,10 +13,10 @@ After that is done, you need a constructor
 ```
 	public MyGui(Player player) {
 		super(player, // The player to open Menu
-    		"Hello",  // Menu title
-        6,        // Menu lines
-        2         // Max pages
-        );
+		"Hello",  // Menu title
+		6,        // Menu lines
+		2         // Max pages
+		);
 	}
 ```
 
