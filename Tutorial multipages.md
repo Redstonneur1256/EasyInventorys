@@ -3,10 +3,10 @@ Hi, if you are here its maybe because you want to know how to use multipages sys
 Example plugin with one Wool block putting on page 2 and a log block to go back on page 1
 With a stone block saying hello form page <CurrentPage>
 
-So, you need to create you class extending Gui
+So, you need to create you class extending MultiPagesGui
 
 ```
-public class MyGui extends Gui
+public class MyGui extends MultiPagesGui
 ```
 
 After that is done, you need a constructor
