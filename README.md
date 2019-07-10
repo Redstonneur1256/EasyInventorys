@@ -17,12 +17,12 @@ import fr.redstonneur1256.easyinv.Gui;
 
 public class ExampleGui extends Gui {
 
-	public ExampleGui() {
+	public ExampleGui(Player player) {
 		/*
 		 * Setting name "MyCoolGui" and amount of line to 3 
 		 * Warning! Amount of line need to be between 1 and 6
 		 */
-		super("MyCoolGui", 3);
+		super(player, "MyCoolGui", 3);
 	}
 	
 	/*
@@ -60,5 +60,5 @@ public class ExampleGui extends Gui {
 And how to open it:
 ```
 Player myPlayer = ...;
-EasyInventorys.get().openGui(myPlayer, new ExampleGui());
+EasyInventorys.get().openGui(myPlayer, new ExampleGui(myPlayer));
 ```
