@@ -17,12 +17,12 @@ import fr.redstonneur1256.easyinv.Gui;
 
 public class ExampleGui extends Gui {
 
-	public ExampleGui(Player player) {
+	public ExampleGui() {
 		/*
 		 * Setting name "MyCoolGui" and amount of line to 3 
 		 * Warning! Amount of line need to be between 1 and 6
 		 */
-		super(player, "MyCoolGui", 3);
+		super("MyCoolGui", 3);
 	}
 	
 	/*
@@ -62,3 +62,19 @@ And how to open it:
 Player myPlayer = ...;
 EasyInventorys.get().openGui(myPlayer, new ExampleGui(myPlayer));
 ```
+
+Version 0.9+
+
+You can now create a gui of any type of block in game. Just create a class extanding one of the classes
+```
+AnvilGui
+BeaconGui
+BrewingStandGui
+DispenserGui
+DropperGui
+EnchantmentTableGui
+FurnaceGui
+HopperGui
+WorkbenchGui
+```
+and work same than the gui
