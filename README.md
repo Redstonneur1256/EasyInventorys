@@ -49,7 +49,7 @@ public class ExampleGui extends Gui {
 	 * Method called when an item get clicked
 	*/
 	@Override
-	public void onClick(Player player, ItemStack stack, String action) {
+	public boolean onClick(Player player, ItemStack stack, String action) {
 		if(action == "say_Hello") // If action its the defined action say_hello, execute code you want for this action
 			player.performCommand("say Hello"); // Player say hello into chat!
 		
